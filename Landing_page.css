@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and navigation styles */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for menu items */
+.navbar ul li a:hover {
+    background-color: #0059b3;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Active state when scrolled */
+.navbar.scrolled {
+    background-color: #111;
+}
+
+/* Section styles */
+section {
+    height: 100vh;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Color themes for sections */
+#home {
+    background-color: #F16A70; /* Soft Red */
+}
+
+#about {
+    background-color: #B1D877; /* Soft Green */
+}
+
+#services {
+    background-color: #8CDCDA; /* Soft Cyan */
+}
+
+#contact {
+    background-color: #4D4D4D; /* Dark Gray */
+}
+
+/* Section text styles */
+section h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+section p {
+    font-size: 1.2em;
+}
